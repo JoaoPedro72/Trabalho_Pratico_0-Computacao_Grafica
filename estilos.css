@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+    background-image: url("imagens/hex.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.container {
+  display: flex; /* Ativa o flexbox */
+  align-items: flex-start; /* Alinha o topo das duas colunas */
+  gap: 20px; /* Espaço entre colunas */
+}
+.coluna-imagem img {
+  max-width: 100%; /* A imagem não passa da largura da coluna */
+  height: auto; /* Mantém a proporção */
+  display: block;
+}
+.coluna-completa-espaco {
+  flex: 1; /* Faz a segunda coluna ocupar o espaço restante */
+}
+
+.caixa-de-fundo-transparente {
+  background-color: #8b68eb93;
+  background-color: rgba(139, 104, 235, 0.644);
+  padding: 20px;
+  color: black; /* Text remains fully opaque */
+}
+
+.circular {
+    border-radius: 50%;
+    shape-outside: circle(50%);
+}
+.foto-cachorro{
+    display: inline-block;
+    width: 125px;
+    border: 2px solid yellow;
+    box-shadow: 3px 3px 3px black;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+  gap: 20px; /* Adds a 20px gap between columns and rows */
+}
