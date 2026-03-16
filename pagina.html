@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Pequena Apresentação</title>
+
+        <script src="main.js"></script>
+
         <link rel="stylesheet" href="estilos.css">
         <link rel="icon" href="imagens/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,38 +15,69 @@
     </head>
     </body>
         <div class="wrapper">
-            <div class="caixa-de-fundo-transparente">
-                <div class="container">
-                    <div class="coluna-imagem">
-                    <img class="circular foto-cachorro" src="imagens/foto.png" alt="">
+            <div>   
+                <div class="caixa-de-fundo-transparente">
+                    <div class="container">
+                        <div class="coluna-imagem">
+                            <button style="background-color: transparent; border: none; cursor: pointer;" type="button" onclick="foto_clicada()">
+                                <img class="circular foto-cachorro" src="imagens/foto.png" alt="" id="foto_gohan">
+                            </button>
+                        </div>
+                        <div class="coluna-completa-espaco">
+                            <h1>João Pedro da Silva Alves</h1>
+                            <h2>Estudante de engenharia de computação</h2>
+                        </div>
                     </div>
-                    <div class="coluna-completa-espaco">
-                        <h2>João Pedro da Silva Alves</h2>
-                        <h2>Estudante de engenharia de computação</h3>
+                    <p>Eu gosto muito de jogos e de fazer modificações em jogos, Já fiz datapacks para minecraft e já recriei alguns jogos simples como passa tempo. Mas ainda me falta muita experiencia na area.</p>
+                    <p>Tambem gosto de fazer modelagens 3D de personagens.</p>
+                    <p>Atualmente trabalho com projetos CAD de peças mecanicas.</p>
+                </div>
+                <h1></h1>
+                <div class="caixa-de-fundo-transparente">
+                    <div class="texto-centralizado">
+                        <h2>Alguns dos meus projetos</h2>
+                    </div>
+                    <h2><a href="https://github.com/JoaoPedro72/Joao-s_Vilagers_upgrade">Joao's Villagers Upgrade</a></h2>
+                    <p>Meu datapack de Minecraft que adiciona Guardas as vilas e busca melhorar os aldeões.</p>
+                    <div class="container">
+                        <div class="coluna-imagem">
+                            <video autoplay loop muted playsinline width="150">
+                                <source src="videos/HexWorld.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="coluna-completa-espaco">
+                            <h2><a href="https://github.com/JoaoPedro72/HexWorld">HexWorld</a></h2>
+                            <p>Meu projeto de simulação de mundo hexagonal em C++ usando o SFML.</p>
+                            <p>Planejo adicionar mobs com ia no futuro.</p>
+                        </div>
                     </div>
                 </div>
-                <p>Eu gosto muito de jogos e de fazer modificações em jogos, Já fiz datapacks para minecraft e já recriei alguns jogos simples como passa tempo. Mas ainda me falta muita experiencia na area.</p>
-                <p>Tambem gosto de fazer modelagens 3D de personagens.</p>
-                <p>Atualmente trabalho com projetos CAD de peças mecanicas.</p>
             </div>
             <div>
                 <div class="caixa-de-fundo-transparente">
                     <div class="texto-centralizado">
                         <h2>Alguns dos meus modelos</h2>
                     </div>
-                
-                    <video autoplay loop muted playsinline width="400">
-                        <source src="videos/revenant.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video autoplay loop muted playsinline width="400">
-                        <source src="videos/soldadin.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video autoplay loop muted playsinline width="800">
-                        <source src="videos/violet.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="texto-centralizado">
+                        <div class="wrapper">
+                            <video autoplay loop muted playsinline width="400">
+                                <source src="videos/revenant.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <video autoplay loop muted playsinline width="400">
+                                <source src="videos/soldadin.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="texto-centralizado">
+                        <video autoplay loop muted playsinline width="800">
+                                <source src="videos/violet.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
