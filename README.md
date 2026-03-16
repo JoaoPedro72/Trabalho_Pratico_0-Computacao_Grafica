@@ -6,13 +6,13 @@ O objetivo é criar um site simples me apresentando
 
 ## Objetivos
 
-1. Código HTML referente a um "esqueleto básico" de página HTML5                        OK
-2. Um título no cabeçalho (ie, no &lt;head>&lt;/head>) com seu nome                     OK
-3. Uma foto sua (pode ser do cachorro)                                                  OK
-4. Um ou mais parágrafos descrevendo você                                               
+1. Código HTML referente a um "esqueleto básico" de página HTML5
+2. Um título no cabeçalho (ie, no &lt;head>&lt;/head>) com seu nome
+3. Uma foto sua (pode ser do cachorro)
+4. Um ou mais parágrafos descrevendo você
 5. Estilização simples em CSS, em um arquivo de folha de estilos (ie, `.css`).
    Por exemplo, você pode:
-   - Mudar a cor de fundo (ou [colocar uma imagem][imagem-de-fundo])
+   - Mudar a cor de fundo (ou [colocar uma imagem][imagem-de-fundo]) 
    - Mudar a fonte do texto (pode usar fontes bonitas do 
      [Google Fonts][google-fonts])
    - Mudar o tamanho do texto
